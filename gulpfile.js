@@ -13,7 +13,7 @@ const data = JSON.parse(Fs.readFileSync('./data.json'));
 
 
 // start browsersync server
-function browserSync() {
+function browsersync() {
     browserSync.init({
         server: {
             baseDir: "build",
@@ -95,6 +95,6 @@ function startWatch() {
 }
 
 // build the browser sync series
-exports.dev = parallel(browserSync, startWatch, html, javaS, images, fonts, css, video);
+exports.dev = parallel(browsersync, startWatch, html, javaS, images, fonts, css, video);
 exports.build = series(clear, parallel(html, javaS, images, fonts, css));
-exports.default = parallel(browserSync, startWatch, html, javaS,images, fonts, css, video);
+exports.default = parallel(browsersync, startWatch, html, javaS,images, fonts, css, video);

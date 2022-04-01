@@ -1,0 +1,23 @@
+header {
+  padding: 1rem 0 1rem 0;
+  margin-top: 4rem;
+  .container{
+    @extend .row;
+  }
+}
+
+
+.logo {
+	font-family: $ff-main;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 3rem;
+	letter-spacing: 0.56px;
+	color: $c-black;
+  cursor: pointer;
+}
+
+.nav a {
+	margin-left: 4rem;
+}
