@@ -1,0 +1,45 @@
+.person {
+  padding: 19.3rem 0 25.3rem 0;
+	padding-top: 19.3rem;
+  
+	.container {
+		@extend .row;
+    align-items: flex-end;
+
+		.regular_title {
+			max-width: 51.5rem;
+		}
+	}
+
+	&__info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&-subtitle {
+    padding: 6rem 0 6.6rem 0;
+
+		font-size: 4rem;
+		line-height: 4.4rem;
+	}
+
+	&__prg {
+		max-width: 55.1rem;
+		
+
+		font-family: $ff-main;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2.2rem;
+		line-height: 3.5rem;
+		letter-spacing: 0.56px;
+		color: $c-black;
+
+		&.prg-small {
+      padding-top: 3.6rem;
+			font-size: 1.6rem;
+			line-height: 2.9rem;
+		}
+	}
+
+}
