@@ -1,0 +1,21 @@
+.hero {
+	padding: 20.8rem 0 15rem 0;
+
+	.container {
+		border-bottom: 1px solid #dddddd;
+
+		p {
+			margin: 17rem 0 14rem 0;
+		}
+	}
+}
+
+.title {
+	font-family: $ff-main;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 6.6rem;
+	line-height: 8.8rem;
+	letter-spacing: 3.2px;
+	color: $c-black;
+}
