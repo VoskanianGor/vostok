@@ -1,17 +1,18 @@
-html{
-    font-size: 10px;
+html {
+	font-size: 10px;
+	font-family: $ff-main;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    transition: all .3s ease;
+* {
+	margin: 0;
+	padding: 0;
+	transition: all 0.3s ease;
 }
 
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 
-li{
-    list-style: none;
+li {
+	list-style: none;
 }
