@@ -3,3 +3,13 @@
 @import './utils/global';
 @import './utils/reset';
 @import './utils/mixins';
+
+
+//import from './sections/'
+@import './sections/header';
+@import './sections/hero';
+@import './sections/person';
+@import './sections/pro';
+@import './sections/clients';
+@import './sections/photos';
+@import './sections/footer';
