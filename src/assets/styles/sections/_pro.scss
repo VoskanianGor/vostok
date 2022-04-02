@@ -1,0 +1,28 @@
+.pro {
+	background-color: #000000;
+
+	.container {
+		overflow: hidden;
+		padding: 35rem 0 35rem 0;
+		white-space: nowrap;
+	}
+	&__feat {
+		font-family: $ff-main;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 7.2rem;
+		line-height: 7.6rem;
+		color: $c-white;
+
+		animation: marquee 18s infinite linear;
+	}
+}
+
+@keyframes marquee {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
