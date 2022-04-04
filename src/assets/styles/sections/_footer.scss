@@ -1,0 +1,40 @@
+.footer {
+	padding: 22rem 0;
+	background-color: #000000;
+
+	.container {
+		@extend .column;
+	}
+
+	&__info {
+		font-family: $ff-main;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 5.6rem;
+		line-height: 6rem;
+		text-align: center;
+		color: $c-white;
+
+		max-width: 53rem;
+	}
+
+	&__links {
+		@extend .row;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		max-width: 35rem;
+
+    margin-top: 2rem;
+	}
+
+	&__link {
+		margin-right: 2rem;
+    margin-bottom: 2rem;
+
+		color: #818181;
+
+		&:nth-child(4n) {
+			margin-right: 0;
+		}
+	}
+}

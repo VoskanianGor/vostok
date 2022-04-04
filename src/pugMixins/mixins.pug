@@ -9,3 +9,6 @@ mixin photos(url, alt, title, description)
         | #{title}
       p.photos__item-description
         | #{description}
+
+mixin footerLink(title, link)
+  a.footer__link(href=link) #{title}
