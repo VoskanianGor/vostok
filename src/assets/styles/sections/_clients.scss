@@ -1,0 +1,16 @@
+.clients {
+	.container {
+		@extend .column;
+		border-bottom: 1px solid #dddddd;
+		padding: 26.8rem 0 11rem 0;
+		margin-bottom: 15rem;
+	}
+
+	&__logos {
+		@extend .row;
+    flex-wrap: wrap;
+		margin-top: 8rem;
+		width: 100%;
+	}
+
+}
