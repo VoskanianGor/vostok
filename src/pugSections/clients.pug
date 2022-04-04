@@ -1,0 +1,8 @@
+include ../pugMixins/mixins
+
+section.clients 
+  .container
+    h3.regular_title Clients 
+    .clients__logos
+      each client in clients
+        +clients(client.url, client.alt)
