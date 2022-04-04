@@ -1,7 +1,12 @@
 .photos {
 	.container {
 		@extend .column;
-    padding-bottom: 35rem;
+		align-items: flex-end;
+		padding-bottom: 35rem;
+
+		@media (max-width: $tablet) {
+			padding-bottom: 15rem;
+		}
 	}
 
 	&__item {
@@ -9,6 +14,12 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
+	}
+
+	&__item-img {
+		height: auto;
+		width: 100%;
+		max-width: $max-width;
 	}
 
 	&__item-text {

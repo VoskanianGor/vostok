@@ -10,12 +10,17 @@
 		font-family: $ff-main;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 5.6rem;
+		font-size: 5.7rem;
 		line-height: 6rem;
 		text-align: center;
 		color: $c-white;
 
-		max-width: 53rem;
+		max-width: 56rem;
+    // width: clamp(300px, 53vw, 56rem)
+
+    @media (max-width: $mobile) {
+			font-size: 4rem;
+		}
 	}
 
 	&__links {

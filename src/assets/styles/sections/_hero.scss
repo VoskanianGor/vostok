@@ -18,4 +18,11 @@
 	line-height: 8.8rem;
 	letter-spacing: 3.2px;
 	color: $c-black;
+
+	@media (max-width: $tablet) {
+		font-size: 3.5rem;
+	}
+	@media (max-width: $mobile) {
+		font-size: 2rem;
+	}
 }

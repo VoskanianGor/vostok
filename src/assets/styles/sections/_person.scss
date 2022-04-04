@@ -1,23 +1,38 @@
 .person {
-  padding: 19.3rem 0 25.3rem 0;
-	padding-top: 19.3rem;
-  
+	padding: 19.3rem 0 25.3rem 0;
+	@media (max-width: $tablet) {
+		padding: 1rem 0 7rem 0;
+	}
 	.container {
 		@extend .row;
-    align-items: flex-end;
+		align-items: flex-end;
 
+		@media (max-width: $tablet) {
+			flex-direction: column;
+			align-items: center;
+		}
 		.regular_title {
 			max-width: 51.5rem;
 		}
 	}
 
+	&__img {
+		height: auto;
+		width: 100%;
+		max-width: 53rem;
+	}
+
 	&__info {
 		display: flex;
 		flex-direction: column;
+
+		@media (max-width: $tablet) {
+			margin-bottom: 2.5rem;
+		}
 	}
 
 	&-subtitle {
-    padding: 6rem 0 6.6rem 0;
+		padding: 6rem 0 6.6rem 0;
 
 		font-size: 4rem;
 		line-height: 4.4rem;
@@ -25,7 +40,6 @@
 
 	&__prg {
 		max-width: 55.1rem;
-		
 
 		font-family: $ff-main;
 		font-style: normal;
@@ -36,10 +50,9 @@
 		color: $c-black;
 
 		&.prg-small {
-      padding-top: 3.6rem;
+			padding-top: 3.6rem;
 			font-size: 1.6rem;
 			line-height: 2.9rem;
 		}
 	}
-
 }

@@ -11,6 +11,10 @@
     flex-wrap: wrap;
 		margin-top: 8rem;
 		width: 100%;
+
+		@media (max-width: $tablet) {
+			justify-content: center;
+		}
 	}
 
 }
