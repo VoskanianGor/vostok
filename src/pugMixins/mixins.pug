@@ -1,2 +1,11 @@
 mixin clients(url, alt)
   img.clients__item(src=url, alt=alt)
+
+mixin photos(url, alt, title, description)
+  .photos__item
+    img.photos__item-img(src=url, alt=alt)
+    .photos__item-text
+      p.photos__item-title
+        | #{title}
+      p.photos__item-description
+        | #{description}
