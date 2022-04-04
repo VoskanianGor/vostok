@@ -27,5 +27,38 @@
       "url": "./assets/images/clients-section/5.png",
       "alt": "Flash"
     }
+  ],
+  "photos": [
+    {
+      "url": "./assets/images/photos-section/1.png",
+      "alt": "photo",
+      "title": "Finesse",
+      "description": "— Redesign"
+    },
+    {
+      "url": "./assets/images/photos-section/2.png",
+      "alt": "photo",
+      "title": "Fellas",
+      "description": "— Visual Concept"
+    },
+    {
+      "url": "./assets/images/photos-section/3.png",
+      "alt": "photo",
+      "title": "Apple is the New Black",
+      "description": "— Digital Branding"
+    },
+    {
+      "url": "./assets/images/photos-section/4.png",
+      "alt": "photo",
+      "title": "Designo",
+      "description": "— Podcast"
+    },
+    {
+      "url": "./assets/images/photos-section/5.png",
+      "alt": "photo",
+      "title": "Tron",
+      "description": "— App"
+    }
+    
   ]
 }

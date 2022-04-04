@@ -1,0 +1,27 @@
+.photos {
+	.container {
+		@extend .column;
+    padding-bottom: 35rem;
+	}
+
+	&__item {
+		margin-bottom: 10rem;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__item-text {
+		margin-top: 3.5rem;
+	}
+
+	&__item-text {
+		font-family: $ff-main;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2.6rem;
+		line-height: 3.8rem;
+		letter-spacing: 0.56px;
+		color: $c-black;
+	}
+}
