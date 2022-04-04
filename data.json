@@ -1,64 +1,73 @@
 {
-  "person": {
-    "title": "Crafing with a brutalist approach. Delivering with love.",
-    "subtitle": "The quick, brown fox jumps over a lazy dog.",
-    "prg1": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.",
-    "prg2": "His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. What's happened to me? he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.",
-    "img": "./assets/images/person.png"
-  },
-  "clients": [
-    {
-      "url": "./assets/images/clients-section/1.png",
-      "alt": "Sitemark"
-    },
-    {
-      "url": "./assets/images/clients-section/2.png",
-      "alt": "Volume"
-    },
-    {
-      "url": "./assets/images/clients-section/3.png",
-      "alt": "Blossom"
-    },
-    {
-      "url": "./assets/images/clients-section/4.png",
-      "alt": "Waveless"
-    },
-    {
-      "url": "./assets/images/clients-section/5.png",
-      "alt": "Flash"
-    }
-  ],
-  "photos": [
-    {
-      "url": "./assets/images/photos-section/1.png",
-      "alt": "photo",
-      "title": "Finesse",
-      "description": "— Redesign"
-    },
-    {
-      "url": "./assets/images/photos-section/2.png",
-      "alt": "photo",
-      "title": "Fellas",
-      "description": "— Visual Concept"
-    },
-    {
-      "url": "./assets/images/photos-section/3.png",
-      "alt": "photo",
-      "title": "Apple is the New Black",
-      "description": "— Digital Branding"
-    },
-    {
-      "url": "./assets/images/photos-section/4.png",
-      "alt": "photo",
-      "title": "Designo",
-      "description": "— Podcast"
-    },
-    {
-      "url": "./assets/images/photos-section/5.png",
-      "alt": "photo",
-      "title": "Tron",
-      "description": "— App"
-    }
-    
-  ]
+	"person": {
+		"title": "Crafing with a brutalist approach. Delivering with love.",
+		"subtitle": "The quick, brown fox jumps over a lazy dog.",
+		"prg1": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.",
+		"prg2": "His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. What's happened to me? he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.",
+		"img": "./assets/images/person.png"
+	},
+	"clients": [
+		{
+			"url": "./assets/images/clients-section/1.png",
+			"alt": "Sitemark"
+		},
+		{
+			"url": "./assets/images/clients-section/2.png",
+			"alt": "Volume"
+		},
+		{
+			"url": "./assets/images/clients-section/3.png",
+			"alt": "Blossom"
+		},
+		{
+			"url": "./assets/images/clients-section/4.png",
+			"alt": "Waveless"
+		},
+		{
+			"url": "./assets/images/clients-section/5.png",
+			"alt": "Flash"
+		}
+	],
+	"photos": [
+		{
+			"url": "./assets/images/photos-section/1.png",
+			"alt": "photo",
+			"title": "Finesse",
+			"description": "— Redesign"
+		},
+		{
+			"url": "./assets/images/photos-section/2.png",
+			"alt": "photo",
+			"title": "Fellas",
+			"description": "— Visual Concept"
+		},
+		{
+			"url": "./assets/images/photos-section/3.png",
+			"alt": "photo",
+			"title": "Apple is the New Black",
+			"description": "— Digital Branding"
+		},
+		{
+			"url": "./assets/images/photos-section/4.png",
+			"alt": "photo",
+			"title": "Designo",
+			"description": "— Podcast"
+		},
+		{
+			"url": "./assets/images/photos-section/5.png",
+			"alt": "photo",
+			"title": "Tron",
+			"description": "— App"
+		}
+	],
+	"footer": [
+		{ "title": "Get Started", "url": "#" },
+		{ "title": "Licenses", "url": "#" },
+		{ "title": "Style Guide", "url": "#" },
+		{ "title": "Changelog", "url": "#" },
+		{ "title": "Pinterest", "url": "#" },
+		{ "title": "Instagram", "url": "#" },
+		{ "title": "Real Life", "url": "#" },
+		{ "title": "2493", "url": "#" }
+	]
 }

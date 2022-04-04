@@ -1,0 +1,6 @@
+footer.footer
+  .container
+    h2.footer__info Vostok © by Sidebay.Studio Powered by Webflow
+    .footer__links
+      each link in footer
+        +footerLink(link.title, link.url)
