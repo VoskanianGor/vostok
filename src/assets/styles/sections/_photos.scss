@@ -1,7 +1,6 @@
 .photos {
 	.container {
 		@extend .column;
-		align-items: flex-end;
 		padding-bottom: 35rem;
 
 		@media (max-width: $tablet) {
